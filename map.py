@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 import csv
 import os
-from ASTAR import astar, haversine
+from astar import astar, haversine
 
 app = Flask(__name__)
 
