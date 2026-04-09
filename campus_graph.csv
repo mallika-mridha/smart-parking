@@ -1,0 +1,160 @@
+Node,Latitude,Longitude,Connected_to,Distance (m),Description,type,label
+P1,8.6788904,77.1336407,J1,33,lot near second gate,parking,Parking lot1 (near Main Gate)
+P2,8.6785985,77.1340207,J1,20,lot near second gate,parking,Parking lot2 (near Main Gate)
+P3,8.6791971,77.1348086,J2,20,near indoor(cricket court),parking,Parking lot3 (near Indoor)
+P4,8.6818496,77.1361225,J10,6,,parking,Parking lot4 (near CSB)
+P6,8.6839924,77.1325211,DF25,6,parking lot near shopping complex,parking,Parking lot6 (near Shopping Complex)
+P7,8.6831158,77.1356899,IP16,32,"near lhc, behind psb",parking,Parking lot7 (near LHC)
+P8,8.6824105,77.1341595,J9,11,NEAR MSB,parking,Parking lot8 (near MSB)
+P9,8.6819477,77.1357689,J5,8,lot in front of csb,parking,Parking lot9 (near CSB)
+P10,8.6806948,77.1360396,J3,8,near CDH1,parking,Parking lot10 (near CDH1)
+P11,8.6815271,77.136385,J7,18,Parking spot near BSB,parking,Parking lot11 (near BSB)
+P12,8.6817854,77.1357434,J5,10,Two wheeler parking spot near CSB,parking,2 wheeler Parking lot (near CSB)
+P13,8.6813482,77.136612,J8,15,Second Parking spot near BSB,parking,Parking lot12 (near BSB)
+P14,8.6833075,77.1326103,DF17,46,Parking spot near health centre,parking,Parking lot (near HC)
+A,8.677884,77.133355,J1,108,Main gate,normal,Main Gate
+J1,8.6787067,77.1338827,A,108,P1/P2 Junction,normal,Junction 1
+J1,8.6787067,77.1338827,P1,33,P1/P2 Junction,normal,Junction 2
+J1,8.6787067,77.1338827,P2,20,P1/P2 Junction,normal,Junction 3
+J1,8.6787067,77.1338827,B,90,P1/P2 Junction,normal,Junction 4
+E,8.6810924,77.1359324,J3,45,acad/vfr/cd1,normal,Junction 12
+
+G,8.681984,77.1351826,K,57,Red Cafe/PSB junction,normal,Junction 16
+H,8.6820503,77.1355018,J5,31,PSB/CSB Junction,normal,Junction 19
+I,8.6817467,77.136348,J10,26,CSB /BSB jn,normal,Junction 20
+I,8.6817467,77.136348,J7,17,CSB /BSB jn,normal,Junction 21
+I,8.6817467,77.136348,IP8,80,CSB /BSB jn,normal,Junction 23
+J2,8.6791537,77.1349764,P3,21,Indoor/P3 Junction,normal,Junction 24
+W,8.6787361,77.13545,Y,11,Indoor/Anamudi Jn,normal,Junction 25
+Y,8.6787295,77.135543,W,11,A block / Indoor jn,normal,Junction 27
+Y,8.6787295,77.135543,Z,13,A block / Indoor jn,normal,Junction 28
+Z,8.6788324,77.1356046,Y,13,Main Gate/Anamudi hostel jn,normal,Junction 29
+J3,8.6807267,77.136104,E,45,P10/CDH1/Cake World Jn.,normal,Junction 31
+
+J3,8.6807267,77.136104,P10,8,P10/CDH1/Cake World Jn.,normal,Junction 33
+J5,8.6818937,77.135739,P9,7,P9/CSB Junction,normal,Junction 34
+J5,8.6818937,77.135739,P12,12,P9/CSB Junction,normal,Junction 35
+J5,8.6818937,77.135739,H,31,P9/CSB Junction,normal,Junction 36
+J5,8.6818937,77.135739,J10,50,P9/CSB Junction,normal,Junction 37
+J10,8.6818018,77.1361142,I,26,P4/CSB Jn,normal,Junction 38
+J10,8.6818018,77.1361142,J5,50,P4/CSB Jn,normal,Junction 39
+J10,8.6818018,77.1361142,P4,6,P4/CSB Jn,normal,Junction 40
+J7,8.681664,77.1364707,J8,38,P11/BSB Jn,normal,Junction 41
+J7,8.681664,77.1364707,I,17,P11/BSB Jn,normal,Junction 42
+J7,8.681664,77.1364707,P11,14,P11/BSB Jn,normal,Junction 43
+J8,8.6814418,77.1367173,P13,16,P13/BSB Jn,normal,Junction 44
+J8,8.6814418,77.1367173,J7,38,P13/BSB Jn,normal,Junction 45
+
+J9,8.6825084,77.1341999,K,65,P8/MSB Junction,normal,Junction 47
+J9,8.6825084,77.1341999,P8,6,P8/MSB Junction,normal,Junction 48
+K,8.6822397,77.134726,G,57,Red Cafe/PSB /MSB Jn,normal,Junction 49
+K,8.6822397,77.134726,J9,65,Red Cafe/PSB /MSB Jn,normal,Junction 50
+IP8,8.6825622,77.13663,IP16,80,80 m from CSB/BSB jn,normal,Junction 51
+IP8,8.6825622,77.13663,I,95,80 m from CSB/BSB jn,normal,Junction 52
+IP16,8.6828751,77.1358629,P7,31,160 m from CSB/BSB jn,normal,Junction 53
+IP16,8.6828751,77.1358629,IP8,80,160 m from CSB/BSB jn,normal,Junction 54
+DF17,8.6835011,77.1329924,DF25,40,P14/Health Centre Jn,normal,Junction 55
+DF17,8.6835011,77.1329924,P14,47,P14/Health Centre Jn,normal,Junction 56
+DF25,8.6836781,77.1326519,DF17,50,P6/Shopping Complex/Residence Jn,normal,Junction 58
+
+DF25,8.6836781,77.1326519,P6,50,P6/Shopping Complex/Residence Jn,normal,Junction 60
+B,8.6793304,77.1343935,AB16,10,Anamudi/Acad jn.,normal,s1
+AB16,8.67934,77.13431,BC3,30,160 m from Main Gate,subjn,s2
+J1,8.6787067,77.1338827,AB9,10,P1/P2 Junction,normal,
+AB9,8.67875,77.13385,AB16,70,90 m from Main Gate,subjn,s4
+B,8.6793304,77.1343935,BZ1,10,Anamudi/Acad jn.,normal,
+BZ1,8.67931,77.13447,BZ4,30,10 m from Acad/Anamudi jn,subjn,s5
+BZ4,8.67937,77.13472,BZ7,30,40 m from Acad/Anamudi jn,subjn,s6
+BZ7,8.67937,77.13497,BZ16,80,70 m from Acad/Anamudi jn,subjn,s7
+BZ16,8.67901,77.13548,BZ18,20,160 m from Acad/Anamudi jn,subjn,s8
+BZ18,8.67888,77.13558,Z,10,10 fromMain Gate/Anamudi hostel jn,subjn,s9
+Y,8.6787295,77.135543,ZY53,11,A block / Indoor jn,normal,
+ZY53,8.67864,77.13545,W,10,530 m from Main Gate/ Anamudi jn,subjn,s10
+W,8.6787361,77.13545,YP3,30,Indoor/Anamudi Jn,normal,
+YP3,8.67896,77.13531,YP5,20,30 m from Indoor/Anamudi Jn,subjn,s11
+YP5,8.6791,77.13516,YP6,10,40 m from Indoor/Anamudi Jn,subjn,s12
+YP6,8.67915,77.13505,J2,10,50 m from Indoor/Anamudi Jn,subjn,s13
+Z,8.6788324,77.1356046,ZY,10,Main Gate/ Anamudi jn,normal,
+ZY,8.6788,77.13569,ZY10,90,10 m from Main Gate/ Anamudi jn,subjn,s14
+ZY10,8.67845,77.13634,ZY12,20,100 m from Main Gate/ Anamudi jn,subjn,s15
+ZY12,8.67841,77.13651,ZY20,80,120 m from Main Gate/ Anamudi jn,subjn,s16
+ZY20,8.67833,77.13719,ZY23,30,200 m from Main Gate/ Anamudi jn,subjn,s17
+ZY23,8.67812,77.13725,ZY37,140,230 from Main Gate/ Anamudi jn,subjn,s18
+ZY37,8.67763,77.13639,ZY41,40,370 from Main Gate/ Anamudi jn,subjn,s19
+ZY41,8.67769,77.136,ZY47,60,410 from Main Gate/ Anamudi jn,subjn,s20
+ZY47,8.67803,77.13547,ZY51,40,470 from Main Gate/ Anamudi jn,subjn,s21
+ZY51,8.67844,77.13536,ZY53,20,510 m from Main Gate/ Anamudi jn,subjn,s22
+B,8.6793304,77.1343935,BC1,12,,normal,Acad/Anamudi/Main Gate Junction
+BC1,8.6794,77.13443,BC2,10,,subjn,s69
+BC2,8.67945,77.1345,BC3,10,,subjn,s70
+BC3,8.6795,77.13457,BC5,20,,subjn,s71
+BC5,8.67964,77.13469,BC6,10,,subjn,S23
+BC6,8.67971,77.13474,BC7,10,,subjn,s72
+BC7,8.67979,77.13477,BC8,10,,subjn,s73
+BC8,8.67987,77.1348,BC9,10,,subjn,s24
+BC9,8.67996,77.1348,BC10,10,,subjn,s74
+BC10,8.68005,77.13481,BC11,10,,subjn,s75
+BC11,8.68014,77.13479,BC12,10,,subjn,s25
+BC12,8.68022,77.13475,BC13,10,,subjn,s76
+BC13,8.6803,77.1347,BC16,30,,subjn,s64
+BC16,8.6805,77.13451,BC18,20,,subjn,s65
+BC18,8.68062,77.13438,C,10,,subjn,s66
+C,8.680734,77.1343256,CE1,13,,subjn,s26
+CE1,8.68079,77.1344,CE2,10,,subjn,s77
+CE2,8.68083,77.13448,CE3,10,,subjn,s78
+CE3,8.68082,77.13457,CE4,10,,subjn,s27
+CE4,8.68075,77.13465,CE6,20,,subjn,s79
+CE6,8.68059,77.13475,CE8,20,,subjn,s80
+CE8,8.68046,77.13489,CE9,10,,subjn,s28
+CE9,8.68042,77.13497,CE16,70,,subjn,s80
+CE16,8.68023,77.13558,CE18,20,,subjn,s81
+CE18,8.68015,77.13575,CE20,20,,subjn,s29
+CE20,8.68006,77.13589,CE25,50,,subjn,s82
+CE25,8.67979,77.13625,CE26,10,,subjn,s83
+CE26,8.67975,77.13633,CE28,20,,subjn,s30
+CE28,8.67971,77.13651,CE31,30,,subjn,s84
+CE31,8.67973,77.13676,CE33,20,,subjn,s31
+CE33,8.6798,77.13694,CE35,20,,subjn,s85
+CE35,8.67988,77.13709,CE36,10,,subjn,s32
+CE36,8.67994,77.13715,CE38,20,,subjn,s86
+CE38,8.68012,77.13714,CE40,20,,subjn,s33
+CE40,8.68019,77.13697,CE44,40,,subjn,s87
+CE44,8.68025,77.13661,CE48,40,,subjn,s34
+CE48,8.68042,77.13631,J3,40,,subjn,s35
+C,8.680734,77.1343256,CD1,10,,normal,Anamudi/VFR/Sispara Junction
+CD1,8.68078,77.13423,CD16,150,,subjn,s36
+CD16,8.68175,77.13328,CD18,20,,subjn,s37
+CD18,8.68192,77.13321,D,40,,subjn,s38
+D,8.68215,77.13345,CD23,10,,normal,s39,Shopping Complex/VFR/CakeWorld Jn
+CD23,8.68213,77.13353,CD29,60,,subjn,s40
+CD29,8.68198,77.13406,CD40,110,,subjn,s41
+CD40,8.68151,77.13496,CD49,90,,subjn,s42
+CD49,8.68116,77.13573,CD50,10,,subjn,s43
+CD50,8.68113,77.13581,E,14,,subjn,s44
+E,8.68109,77.13593,EG1,14,normal, CakeWorld-Acad-CDH1 JUnction
+EG1,8.68117,77.13599,EG2,10,,subjn,s46
+EG2,8.68125,77.13602,EG3,10,,subjn,s47
+EG3,8.68134,77.13599,EG4,10,,subjn,s48
+EG4,8.6814,77.13592,EG12,80,,subjn,s49
+EG12,8.68178,77.13532,EG13,10,,subjn,s50
+EG13,8.68182,77.13524,EG14,10,,subjn,s51
+EG14,8.6819,77.13519,G,6,,subjn,s52
+G,8.68198,77.13518,GH1,12,Red Cafe/PSB junction,normal,
+GH1,8.68204,77.13523,GH2,10,,subjn,s53
+GH2,8.68207,77.13533,GH3,10,,subjn,s54
+GH3,8.68205,77.13542,H,10,,subjn,s55
+J5,8.68189,77.13573,HI6,30,P9/CSB Junction,normal,
+HI6,8.68182,77.13596,J10,20,,subjn,S56
+J10,8.6818,77.13611,HI9,10,,normal,
+HI9,8.68177,77.13623,I,14,,subjn,s57
+D,8.68215,77.13345,DF1,10,VFR/COMPLEX JUNCTION,normal,
+DF1,8.68224,77.13344,DF2,10,,subjn,s67
+DF2,8.68233,77.13346,DF7,50,,subjn,s68
+DF7,8.68279,77.13349,DF12,50,,subjn,s58
+DF12,8.68323,77.13338,DF17,50,,subjn,s59
+DF25,8.68367,77.13265,DF24,30,P6/Shopping Complex/Residence Jn,normal,
+DF24,8.68379,77.13239,DF26,20,,subjn,s60
+DF26,8.68395,77.13228,DF28,20,,subjn,s61
+DF28,8.68429,77.13231,DF30,20,,subjn,s62
+DF30,8.68429,77.13231,F,40,,subjn,s63
+F,8.68451,77.13264,DF30,40,normal,Junction F
