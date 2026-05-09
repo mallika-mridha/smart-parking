@@ -140,12 +140,18 @@ def graph_data():
             seen.add(key)
 
             if u in nodes and v in nodes:
-                coords = [
-                    [nodes[u]['lat'], nodes[u]['lon']],
-                    [nodes[v]['lat'], nodes[v]['lon']]
-                ]
-            else:
-                coords = [None, None]
+    coords = [
+        {
+            "lat": nodes[u]['lat'],
+            "lng": nodes[u]['lon']
+        },
+        {
+            "lat": nodes[v]['lat'],
+            "lng": nodes[v]['lon']
+        }
+    ]
+else:
+    coords = []
 
             edges.append({
                 'from': u,
