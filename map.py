@@ -22,7 +22,7 @@ def load_csv():
 
     # -------- FIRST PASS: Load nodes --------
     with open(CSV_FILE, newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter='\t')  
+        reader = csv.DictReader(f)  
         for row in reader:
             name = row.get('Node', '').strip()
             if not name:
