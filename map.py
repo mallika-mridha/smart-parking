@@ -22,7 +22,7 @@ def load_csv():
 
     # -------- FIRST PASS: Load nodes --------
     with open(CSV_FILE, newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter='\t')  # ✅ FIXED
+        reader = csv.DictReader(f, delimiter='\t')  
         for row in reader:
             name = row.get('Node', '').strip()
             if not name:
@@ -52,7 +52,7 @@ def load_csv():
 
     # -------- SECOND PASS: Build graph --------
     with open(CSV_FILE, newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter='\t')  # ✅ FIXED
+        reader = csv.DictReader(f)  # ✅ FIXED
         for row in reader:
             n1 = row.get('Node', '').strip()
             n2 = (row.get('Connected_to') or '').strip()
@@ -162,7 +162,7 @@ def graph_data():
     })
 
 
-# ✅ FIXED for deployment (Render)
+#  deployment (Render)
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
