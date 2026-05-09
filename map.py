@@ -75,6 +75,9 @@ def load_csv():
 
 # Load data once
 load_csv()
+print("Loaded nodes:", len(nodes))
+print("Loaded graph:", len(graph))
+print("Parking nodes:", len(parking_nodes))
 
 
 @app.route('/')
